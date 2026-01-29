@@ -5,7 +5,7 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <Link to="/">
-                <p className="text-2xl font-bold text-gradient">RESUMIND</p>
+                <p className="text-2xl font-bold text-gradient">FitForRole</p>
             </Link>
             <Link to="/upload" className="primary-button w-fit">
                 Upload Resume
@@ -13,4 +13,4 @@ const Navbar = () => {
         </nav>
     )
 }
-export default Navbar
+export default Navbar;
